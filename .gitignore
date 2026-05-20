@@ -1,35 +1,116 @@
-    # Python cache
+   # =========================================================
+# PYTHON CACHE
+# =========================================================
+
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Environment files
+
+# =========================================================
+# ENVIRONMENT FILES
+# =========================================================
+
 .env
 venv/
+env/
 
-# Lambda zip
-lambda.zip
+
+# =========================================================
+# ZIP FILES
+# =========================================================
+
 *.zip
+lambda.zip
 
-# Installed packages
+
+# =========================================================
+# INSTALLED PYTHON PACKAGES
+# =========================================================
+
 *.dist-info/
 
 boto3/
 botocore/
+s3transfer/
 requests/
 urllib3/
 sqlalchemy/
 greenlet/
 pg8000/
-s3transfer/
 charset_normalizer/
 certifi/
 dateutil/
 idna/
 asn1crypto/
 scramp/
+jmespath/
+include/
 
-# VS Code
+
+# =========================================================
+# LAMBDA PROJECT DEPENDENCIES
+# =========================================================
+
+LAMBDA_PROJECT/boto3/
+LAMBDA_PROJECT/botocore/
+LAMBDA_PROJECT/s3transfer/
+LAMBDA_PROJECT/requests/
+LAMBDA_PROJECT/urllib3/
+LAMBDA_PROJECT/sqlalchemy/
+LAMBDA_PROJECT/greenlet/
+LAMBDA_PROJECT/pg8000/
+LAMBDA_PROJECT/charset_normalizer/
+LAMBDA_PROJECT/certifi/
+LAMBDA_PROJECT/dateutil/
+LAMBDA_PROJECT/idna/
+LAMBDA_PROJECT/asn1crypto/
+LAMBDA_PROJECT/scramp/
+LAMBDA_PROJECT/jmespath/
+LAMBDA_PROJECT/include/
+LAMBDA_PROJECT/*.dist-info/
+
+
+# =========================================================
+# VSCODE
+# =========================================================
+
 .vscode/
 
-# OS files
+
+# =========================================================
+# MAC / WINDOWS SYSTEM FILES
+# =========================================================
+
 .DS_Store
+Thumbs.db
+
+
+# =========================================================
+# DATA FILES
+# =========================================================
+
+data/
+db/
+
+
+# =========================================================
+# STREAMLIT
+# =========================================================
+
+.streamlit/
+
+
+# =========================================================
+# DOCKER
+# =========================================================
+
+docker-compose.yml
+
+
+# =========================================================
+# LOG FILES
+# =========================================================
+
+*.log
