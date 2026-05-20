@@ -1,0 +1,35 @@
+    # Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+venv/
+
+# Lambda zip
+lambda.zip
+*.zip
+
+# Installed packages
+*.dist-info/
+
+boto3/
+botocore/
+requests/
+urllib3/
+sqlalchemy/
+greenlet/
+pg8000/
+s3transfer/
+charset_normalizer/
+certifi/
+dateutil/
+idna/
+asn1crypto/
+scramp/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
